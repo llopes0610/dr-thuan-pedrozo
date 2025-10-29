@@ -24,10 +24,18 @@ export default function ContatoPage() {
 
       {/* Formulário básico */}
       <form
-        action="https://formsubmit.co/contato@thauanpedrozo.adv.br"
+        action="https://formsubmit.co/llopes3025@gmail.com"
         method="POST"
+        accept-charset="UTF-8"
         className="grid gap-4 max-w-xl"
       >
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_autoresponse" value="Recebemos sua solicitação. Retorno imediato se for urgente." />
+        <input type="hidden" name="_next" value="https://thauanpedrozo.adv.br/contato?ok=true" />
+        <input type="hidden" name="_subject" value="Novo caso criminal — Site Dr. Thuan Pedrozo" />
+        <input type="hidden" name="_replyto" />
+
         <input
           type="text"
           name="nome"
@@ -70,21 +78,18 @@ export default function ContatoPage() {
         >
           Enviar Solicitação
         </button>
-
-        {/* Segurança do FormSubmit */}
-        <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_template" value="box" />
       </form>
+
 
       {/* CTA WhatsApp */}
       <a
-  href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_PHONE}?text=Olá, preciso de atendimento jurídico criminal com urgência.`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn btn-gold"
->
-  Falar Agora via WhatsApp →
-</a>
+        href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_PHONE}?text=Olá, preciso de atendimento jurídico criminal com urgência.`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-gold"
+      >
+        Falar Agora via WhatsApp →
+      </a>
 
 
       <p className="text-xs text-text/50 mt-4">
