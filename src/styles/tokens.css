@@ -1,0 +1,49 @@
+/* ==============================
+   Luxury Design Tokens
+   LUX-2 • GOLD-T2 • TYPE-2 • SPACE-2
+   ============================== */
+
+:root {
+  /* ===== Colors ===== */
+  --color-grafite: #0c0c0d;
+  --color-grafite-light: #141416;
+  --color-text: #e5e5e5;
+  --color-text-muted: rgba(229, 229, 229, 0.75);
+
+  /* Gold Premium (GOLD-T2) */
+  --color-gold: #d4af37;
+  --color-gold-soft: #bfa235;
+  --color-gold-muted: #8c7a2c;
+
+  /* Status (opcional futuro) */
+  --color-success: #37d49e;
+  --color-warning: #d4c637;
+  --color-error: #d43737;
+
+  /* ===== Typography Scale (TYPE-2 Premium) ===== */
+  --font-size-h1: 2.75rem;
+  --font-size-h2: 2.25rem;
+  --font-size-h3: 1.75rem;
+  --font-size-h4: 1.35rem;
+  --font-size-body: 1rem;
+  --font-size-small: 0.875rem;
+
+  /* ===== Spacing System (SPACE-2) ===== */
+  --space-section: 5.5rem;
+  --space-section-sm: 3rem;
+  --space-gap: 1.25rem;
+
+  /* ===== Radius & Borders ===== */
+  --radius-soft: 6px;
+  --radius-medium: 10px;
+  --radius-card: 14px;
+
+  /* ===== Shadows (Luxury) ===== */
+  --shadow-soft: 0px 6px 14px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0px 8px 22px rgba(0, 0, 0, 0.4);
+  --shadow-gold: 0 0 14px rgba(212, 175, 55, 0.25);
+
+  /* ===== Transitions ===== */
+  --transition-soft: all 0.25s ease;
+  --transition-smooth: all 0.4s ease;
+}

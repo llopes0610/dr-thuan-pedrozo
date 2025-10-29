@@ -1,0 +1,47 @@
+@import "../src/styles/tokens.css";
+
+/* ==============================
+   Global Base Styles (Luxury UI)
+   ============================== */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base reset + luxury background + text color */
+body {
+  background-color: var(--color-grafite);
+  color: var(--color-text);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+}
+
+/* Improve smoothing for luxury typography */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container padding adjustments for luxury spacing */
+.container {
+  @apply px-4 md:px-6 lg:px-10;
+}
+
+/* Luxury text token classes */
+.text-text {
+  color: var(--color-text);
+}
+
+.text-text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-text\/80 {
+  color: rgba(229, 229, 229, 0.8);
+}
+
+
+
+
+
