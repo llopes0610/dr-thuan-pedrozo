@@ -1,3 +1,5 @@
+
+
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -22,7 +24,7 @@ export default function ContatoPage() {
 
       {/* Formulário básico */}
       <form
-        action="https://formsubmit.co/YOUR_EMAIL_HERE"
+        action="https://formsubmit.co/contato@thauanpedrozo.adv.br"
         method="POST"
         className="grid gap-4 max-w-xl"
       >
@@ -75,14 +77,15 @@ export default function ContatoPage() {
       </form>
 
       {/* CTA WhatsApp */}
-      <div className="mt-12">
-        <Link
-          href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP}?text=Olá, preciso de um atendimento jurídico criminal urgente!`}
-          className="btn btn-outline-gold text-lg"
-        >
-          Falar Agora via WhatsApp →
-        </Link>
-      </div>
+      <a
+  href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_PHONE}?text=Olá, preciso de atendimento jurídico criminal com urgência.`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-gold"
+>
+  Falar Agora via WhatsApp →
+</a>
+
 
       <p className="text-xs text-text/50 mt-4">
         Sigilo e confidencialidade garantidos.
