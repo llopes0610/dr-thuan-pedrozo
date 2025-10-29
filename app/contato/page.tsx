@@ -24,7 +24,7 @@ export default function ContatoPage() {
 
       {/* Formulário básico */}
       <form
-        action="https://formsubmit.co/llopes3025@gmail.com"
+        action="https://formsubmit.co/contato@thauanpedrozo.adv.br"
         method="POST"
         accept-charset="UTF-8"
         className="grid gap-4 max-w-xl"
