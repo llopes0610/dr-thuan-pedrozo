@@ -17,15 +17,15 @@ export default function AboutCompact() {
         <div className="flex flex-col items-center">
           <div className="relative w-24 h-24 rounded-full overflow-hidden border border-gold/30 shadow-soft mb-4">
             <Image
-              src="/images/dr-thuan.jpg"
-              alt="Foto do Dr. Thuan Pedrozo"
+              src="/images/dr-thauan.jpg"
+              alt="Foto do Dr. Thauan Pedrozo"
               fill
               className="object-cover"
             />
           </div>
 
           <p className="text-lg text-text/80 leading-relaxed">
-            Atuação reconhecida na advocacia criminal, com compromisso absoluto
+            Atuação reconhecida na advocacia, com compromisso absoluto
             com a liberdade e a justiça.
           </p>
 
@@ -33,7 +33,7 @@ export default function AboutCompact() {
             href="/sobre"
             className="mt-6 inline-block font-medium text-gold hover:text-gold/80 transition-colors"
           >
-            Conheça o Dr. Thuan →
+            Conheça o Dr. Thauan →
           </Link>
         </div>
       </motion.div>

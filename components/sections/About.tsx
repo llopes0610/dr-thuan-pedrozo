@@ -19,7 +19,7 @@ export default function AboutSection() {
       />
       <div className="container relative py-16 md:py-24">
         <h2 id="sobre-heading" className="font-serif text-3xl md:text-4xl mb-8">
-          Quem é o <span className="text-gold">Dr. Thuan Pedrozo</span>
+          Quem é o <span className="text-gold">Dr. Thauan Pedrozo</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-10 items-start">
@@ -30,8 +30,8 @@ export default function AboutSection() {
               style={{ borderColor: "rgba(212,175,55,0.35)" }}
             >
               <Image
-                src="/images/dr-thuan.jpg"
-                alt="Dr. Thuan Pedrozo, advogado criminalista"
+                src="/images/dr-thauan.jpg"
+                alt="Dr. Thauan Pedrozo, advogado criminalista"
                 width={900}
                 height={1200}
                 className="object-cover w-full h-auto"
@@ -43,8 +43,8 @@ export default function AboutSection() {
           {/* TEXTO */}
           <div className="space-y-4 text-text/85">
             <p>
-              O <strong>Dr. Thuan Pedrozo</strong> é advogado inscrito na <strong>OAB/SP 396.342</strong> e fundador do
-              <strong> Escritório de Advocacia Dr. Thuan Pedrozo</strong>, atuando com foco em Direito Penal e prestando
+              O <strong>Dr. Thauan Pedrozo</strong> é advogado inscrito na <strong>OAB/SP 396.342</strong> e fundador do
+              <strong> Escritório de Advocacia Dr. Thauan Pedrozo</strong>, atuando com foco em Direito Penal e prestando
               assessoria jurídica com seriedade, ética e compromisso. É <strong>Bacharel em Direito pela Universidade Santa Cecília (2017)</strong>,
               formação que consolidou as bases técnicas e acadêmicas de sua atuação profissional.
             </p>

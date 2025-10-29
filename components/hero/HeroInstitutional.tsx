@@ -28,7 +28,7 @@ export default function HeroInstitutional() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-sm tracking-wide text-gold/90 mb-3"
           >
-            Dr. Thuan Pedrozo — Advocacia Criminal • OAB/SP 396.342
+            Dr. Thauan Pedrozo — Advogado & Consultor Jurídico • OAB/SP 396.342
           </motion.div>
 
           <motion.h1

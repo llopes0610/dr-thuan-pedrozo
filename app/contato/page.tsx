@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contato — Dr. Thuan Pedrozo | Advogado Criminalista",
+  title: "Contato — Dr. Thauan Pedrozo | Advogado Criminalista",
   description:
     "Atendimento imediato em casos criminais. Flagrante, custódia, inquérito policial, defesa técnica urgente no Litoral de SP.",
 };

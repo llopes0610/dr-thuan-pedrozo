@@ -18,12 +18,12 @@ export default function AboutHome() {
                     className="flex-1"
                 >
                     <h2 className="font-serif text-h2 text-gold mb-4">
-                        Sobre o Dr. Thuan Pedrozo
+                        Sobre o Dr. Thauan Pedrozo
                     </h2>
 
                     <p className="text-text-muted leading-relaxed mb-6 max-w-xl">
                         Advogado criminalista com atuação dedicada no Litoral de São Paulo, o
-                        Dr. Thuan Pedrozo trabalha com uma abordagem humana, estratégica e
+                        Dr. Thauan Pedrozo trabalha com uma abordagem humana, estratégica e
                         pautada na ética. Seu compromisso é oferecer defesa técnica de alto
                         padrão, acolhendo cada cliente com respeito e absoluta
                         confidencialidade.
@@ -53,8 +53,8 @@ export default function AboutHome() {
                     {/* FOTO — substitua o src pelo definitivo */}
                     <div className="relative w-[330px] h-[420px] rounded-card overflow-hidden border border-gold/15 shadow-soft">
                         <Image
-                            src="/images/dr-thuan.jpg"
-                            alt="Foto do Dr. Thuan Pedrozo"
+                            src="/images/dr-thauan.jpg"
+                            alt="Foto do Dr. Thauan Pedrozo"
                             fill
                             className="object-cover"
                         />

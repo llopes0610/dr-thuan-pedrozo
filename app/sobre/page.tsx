@@ -50,7 +50,7 @@ export default function SobrePage() {
                         viewport={{ once: true, amount: 0.3 }}
                         transition={{ duration: 0.6, ease: "easeOut" }}
                     >
-                        <h2 className="font-serif text-h2 text-gold mb-4">Quem é o Dr. Thuan Pedrozo</h2>
+                        <h2 className="font-serif text-h2 text-gold mb-4">Quem é o Dr. Thauan Pedrozo</h2>
                         <p className="text-text-muted leading-relaxed mb-4">
                             Advogado criminalista com atuação dedicada no Litoral de São Paulo. Minha
                             abordagem une rigor técnico, estratégia e acolhimento, respeitando a singularidade
@@ -84,7 +84,7 @@ export default function SobrePage() {
                         <div className="col-span-12 md:col-span-5 flex justify-center md:justify-end">
                             <Image
                                 src="/images/dr-thauan-about.jpg"
-                                alt="Dr. Thuan Pedrozo"
+                                alt="Dr. Thauan Pedrozo"
                                 width={500}
                                 height={650}
                                 className="rounded-xl border border-gold/20 shadow-card object-cover"

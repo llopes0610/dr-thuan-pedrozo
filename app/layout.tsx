@@ -18,7 +18,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Thuan Pedrozo — Advocacia Criminal no Litoral SP",
+  title: "Dr Thauan Pedrozo advogado e consultor jurídico no Litoral SP",
   description:
     "Advogado especializado em Direito Penal e Processual Penal, atuando no Litoral de SP. Atendimento ágil e humanizado com triagem assistida por IA.",
 };
@@ -33,8 +33,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-20 border-b border-gold/20 bg-grafite/80 backdrop-blur">
           <div className="container flex items-center justify-between py-4">
             <div className="font-serif text-lg tracking-wide text-gold/90">
-              Dr. Thuan Pedrozo —{" "}
-              <span className="font-normal">Advocacia Criminal</span>
+              Dr. Thauan Pedrozo —{" "}
+              <span className="font-normal">Advogado & Consultor Jurídico</span>
             </div>
             <nav className="text-sm text-text/80">
               <a href="/" className="hover:text-gold transition-colors px-3">

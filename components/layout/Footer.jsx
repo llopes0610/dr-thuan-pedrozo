@@ -15,10 +15,10 @@ export default function Footer() {
           {/* Logo + identidade */}
           <div>
             <h3 className="font-serif text-2xl text-gold mb-2">
-              Dr. Thuan Pedrozo
+              Dr. Thauan Pedrozo
             </h3>
             <p className="text-sm text-text/70">
-              Advogado Criminalista | OAB/SP 396.342
+              Advogado & Consultor Jurídico | OAB/SP 396.342
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-gold/10 mt-10 pt-6 text-center text-xs text-text/60">
-          © {currentYear} • Escritório de Advocacia Dr. Thuan Pedrozo • Todos os direitos reservados
+          © {currentYear} • Escritório de Advocacia Dr. Thauan Pedrozo • Todos os direitos reservados
         </div>
       </div>
     </footer>

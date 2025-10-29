@@ -83,7 +83,7 @@ Mensagem: ${mensagem}
 
     // Criar link WhatsApp com mensagem automática
     const whats = buildWhatsAppLink(
-      `Olá, Dr. Thuan. Sou ${nome} de ${cidade}. Preciso de ajuda (${parsed.area || area}). Resumo: ${parsed.resumo}`
+      `Olá, Dr. Thauan. Sou ${nome} de ${cidade}. Preciso de ajuda (${parsed.area || area}). Resumo: ${parsed.resumo}`
     );
 
     return NextResponse.json({ ok: true, resumo: parsed, whatsapp: whats });
